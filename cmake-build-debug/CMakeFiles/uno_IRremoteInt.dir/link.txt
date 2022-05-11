@@ -1,0 +1,2 @@
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-ar qc libuno_IRremoteInt.a CMakeFiles/uno_IRremoteInt.dir/libs/IRremote/IRremote.cpp.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-ranlib libuno_IRremoteInt.a

@@ -1,0 +1,294 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "arduino.elf"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"setup_arduino_target",
+			"generate_arduino_firmware",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories",
+			"setup_arduino_library",
+			"setup_arduino_libraries"
+		],
+		"files" : 
+		[
+			"cmake/Platform/Arduino.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 516,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1125,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1133,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 507,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1097,
+				"parent" : 7
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1030,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1031,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1032,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 1043,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1030,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1031,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1032,
+				"parent" : 12
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD"
+				},
+				{
+					"fragment" : " -DF_CPU=16000000L -DARDUINO=10819 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR -mmcu=atmega328p -I\"/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino\" -I\"/Applications/Arduino.app/Contents/Java/libraries\" -I\"/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard\"  -I\"/Users/nonepro/CLionProjects/arduino\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote/src\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote/IRremoteInt\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote/IRremoteInt/src\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote/IRremoteInt/utility\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote/src\" -I\"/Users/nonepro/CLionProjects/arduino/libs/IRremote/utility\""
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs/IRremote"
+				},
+				{
+					"backtrace" : 10,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs/IRremote/src"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs/IRremote/utility"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs/IRremote/IRremoteInt"
+				},
+				{
+					"backtrace" : 14,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs/IRremote/IRremoteInt/src"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/nonepro/CLionProjects/arduino/libs/IRremote/IRremoteInt/utility"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "uno_CORE::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "uno_IRremoteInt::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "uno_IRremote::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "arduino::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -g -Os -w -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-w -Os -Wl,--gc-sections -w -Os -Wl,--gc-sections  -mmcu=atmega328p",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-L/Users/nonepro/CLionProjects/arduino",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "libuno_IRremote.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "libuno_IRremoteInt.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "libuno_CORE.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-lc -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "arduino",
+	"nameOnDisk" : "arduino.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "arduino.ino",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/arduino_arduino.ino.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/arduino_arduino.ino.cpp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}

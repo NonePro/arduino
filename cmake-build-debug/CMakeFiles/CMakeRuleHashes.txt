@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+e800ada7ec320dc7a71c5e1ff057b549 CMakeFiles/arduino-burn
+6b91067c6be00da5407388e4e23ac507 CMakeFiles/arduino-size
+a0ef0817e4dcc1b9f599c6fe77b60a95 CMakeFiles/arduino-upload
+45a7de58a0899627f5e8fa7787a34e76 arduino_arduino.ino.cpp
