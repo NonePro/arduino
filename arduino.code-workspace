@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"name": "test00_hello_word",
+			"path": "test00_hello_word"
+		},
+		{
+			"name": "test01_double_color_led",
+			"path": "test01_double_color_led"
+		},
+		{
+			"name": "test02_rgb_led",
+			"path": "test02_rgb_led"
+		}
+	]
+}

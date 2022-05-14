@@ -6,6 +6,10 @@
 		{
 			"name": "double_color_led",
 			"path": "."
+		},
+		{
+			"name": "test02_rgb_led",
+			"path": "../test02_rgb_led"
 		}
 	],
 	"settings": {}
