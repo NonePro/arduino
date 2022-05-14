@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../hello_word"
+		},
+		{
+			"name": "double_color_led",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
