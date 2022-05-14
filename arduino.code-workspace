@@ -11,6 +11,10 @@
 		{
 			"name": "test02_rgb_led",
 			"path": "test02_rgb_led"
+		},
+		{
+			"name": "test03_relay",
+			"path": "test03_relay"
 		}
 	]
 }
