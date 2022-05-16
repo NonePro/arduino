@@ -15,6 +15,10 @@
 		{
 			"name": "test03_relay",
 			"path": "test03_relay"
+		},
+		{
+			"name": "a00_sos",
+			"path": "a00_sos"
 		}
 	]
 }
