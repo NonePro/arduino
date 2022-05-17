@@ -19,6 +19,10 @@
 		{
 			"name": "a00_sos",
 			"path": "a00_sos"
+		},
+		{
+			"name": "a05_binary_number",
+			"path": "a05_binary_number"
 		}
 	]
 }
