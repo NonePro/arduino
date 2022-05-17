@@ -23,6 +23,10 @@
 		{
 			"name": "a05_binary_number",
 			"path": "a05_binary_number"
+		},
+		{
+			"name": "a10_analog_read",
+			"path": "a10_analog_read"
 		}
 	]
 }
